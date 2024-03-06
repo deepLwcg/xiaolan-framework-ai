@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>buzz.xiaolan.framework.ai</groupId>
+        <artifactId>xiaolan-framework-ai-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../xiaolan-framework-ai-parent</relativePath>
+    </parent>
+
+    <artifactId>xiaolan-ai-plugins-interface</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>xiaolan-ai-plugins-interface</name>
+    <description>xiaolan-ai-plugins-interface</description>
+
+    <properties>
+        <java.version>17</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <jakarta-servlet.version>5.0.0</jakarta-servlet.version>
+    </properties>
+
+    <dependencies>
+        
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
